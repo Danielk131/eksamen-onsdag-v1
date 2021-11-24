@@ -1,0 +1,289 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+
+body{
+overflow-x: hidden;
+max-width: 100%;
+font-family: 'Open sans', Arial, Helvetica, sans-serif ;
+font-weight: 400;
+line-height: 1.5;
+}
+
+
+h1{
+  font-size: 4rem;
+  
+}
+
+
+h1,
+h2,
+h3 {
+ font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  flex-flow: row wrap;
+  font-size: 1.5rem;
+  font-weight: 700;
+  width: 100%;
+  background-color:#d8cfd0;
+  font-family: 'Poppins', sans-serif;
+}
+
+li{
+  
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+}
+
+  nav li{
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid;
+  box-sizing: border-box;
+  flex: 1 0 0;
+  min-width: 10rem;
+}
+
+
+nav li:hover{
+  background-color: #dcdcde;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline !important;
+
+}
+   
+
+.active {
+  background-color: #b1a6a4;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; 
+}
+
+
+.container {
+  display:flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: min(90%, 650px );
+  }
+
+  .container img{
+        margin: 2rem auto;
+        max-height: 75vh;
+        
+      }
+
+
+.part1 {
+  background-color:#f6f6ea;
+  
+}
+
+.part2 {
+  background-color: #d8cfd0;
+}
+
+.part3{
+  
+  background-color: #f6f6ea;
+}
+
+
+.welcome {
+  position: relative;
+  color: white;
+  max-height: 30%;
+}
+
+.welcome img{
+  width: 100%;
+  /* max-height: 100vh; 
+  opacity: 0.9; */
+}
+
+.welcome p {
+  max-width: 80%;
+  font-size: 1.8rem;
+  text-align: center;
+  margin:0 auto;
+
+}
+
+/* Kilde for å sentrere tekst i midten av bilde: https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  width: 100%;
+  
+}
+
+.text-block h1 {
+  margin-bottom: 1rem;
+}
+
+.flex-part{
+  padding: 2rem 0;
+}
+
+footer{
+  background-color: #dcdcde;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  line-height: 40px;
+}
+
+.fa{
+  display: inline-block;
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  text-align: center;
+  width: 25px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.fa-facebook{
+  background: #3B5998;  
+  color: white;
+}
+
+.fa-instagram{
+  background: #125688;
+  color: white;
+}
+
+@media screen and (min-width: 900px){
+  .container {
+    flex-direction: row;
+    column-gap: 5rem;
+    align-items: center;
+    font-size:1.6rem;
+    width: min(80%, 1200px);
+    }
+
+    .container img {
+      margin: 0;
+    }
+    
+    .container>div {
+    max-width: 50%;
+    }
+
+
+  .part1 div {
+     align-items: flex-start;
+  }
+
+  .container div {
+    max-width: 50%;
+    flex: 1 1 0;
+  }
+
+  .test {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* .test img{
+    margin: 0 !important;
+  } */
+
+    /* .container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size:1.6rem
+      } 
+
+
+     .flex-part{
+       display: flex;
+       flex-direction: column;
+       column-gap: 5rem;
+       justify-content:center;
+     }
+
+    .container img {
+      margin: 0;
+      flex: 1 1 0;
+      align-items: center;;
+    }
+
+   .container div {
+     max-width: 50%;
+     flex: 1 1 0;
+   }   
+
+  
+
+
+
+    .flex-part {
+    padding-top: 2rem;
+    display:flex;
+    flex-direction: column;
+      } 
+
+  .part1 div {
+        align-items: flex-start;
+        flex: 1;
+      } */
+
+
+}
+
+
+
+
+
+
+
+
+
+
