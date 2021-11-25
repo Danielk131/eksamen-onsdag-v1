@@ -20,7 +20,7 @@ line-height: 1.5;
 
 h1{
   font-size: 4rem;
-  
+  border-bottom: 3px black solid;
 }
 
 
@@ -74,7 +74,7 @@ a {
 }
 
 a:hover{
-  text-decoration: underline !important;
+  text-decoration: underline;;
 
 }
    
